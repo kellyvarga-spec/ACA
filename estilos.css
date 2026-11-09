@@ -1,0 +1,152 @@
+/* ==========================================
+   RESET Y ESTILOS GENERALES (Selectores de Etiqueta)
+   ========================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   ENCABEZADO Y NAVEGACIÓN (Selector de ID y Clase)
+   ========================================== */
+.encabezado-principal {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#titulo-tienda {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #cccccc;
+}
+
+/* Menú de navegación maquetado con Flexbox */
+#menu-principal {
+    margin-top: 15px;
+}
+
+.lista-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lista-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.lista-nav a:hover,
+.enlace-activo {
+    background-color: #e67e22;
+}
+
+/* ==========================================
+   CONTENIDO PRINCIPAL Y SECCIONES (Selectores de Clase)
+   ========================================== */
+.contenedor-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.imagen-destacada {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: block;
+}
+
+.lista-categorias {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.lista-categorias li {
+    margin-bottom: 8px;
+}
+
+/* ==========================================
+   ESTILOS DE LA TABLA
+   ========================================== */
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabla-productos th, 
+.tabla-productos td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.tabla-productos th {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.tabla-productos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ==========================================
+   CONTENEDOR DE VIDEO Y PIE DE PÁGINA
+   ========================================== */
+.contenedor-video {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contenedor-video iframe {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+#pie-pagina {
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
